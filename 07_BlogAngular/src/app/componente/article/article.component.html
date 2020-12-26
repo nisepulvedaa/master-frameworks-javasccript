@@ -1,0 +1,34 @@
+<div class="center">
+    <section id="content">
+
+        <h1 class="subheader">{{title}}</h1>
+
+        <article class="article-item article-detail">
+            <div class="image-wrap">
+                <img src="{{url + '/get-image/' + image}}" alt="{{title}}" title="Paisaje" *ngIf="image">
+                <img src="assets/imagenes/defecto.png" alt="{{title}}" title="Paisaje" *ngIf="!image">
+            </div>
+            <h1 class="subheader"> {{title}}</h1>
+            <span class="date">
+                {{date | amLocale: 'es' | amTimeAgo}}
+            </span>
+            <p>
+                {{content}}
+            </p>
+
+            <div class="buttons">
+                <a [routerLink]="['/blog/editar/', _id]" class="btn btn-warning">Editar</a>
+                <a (click)="delete(_id)" class="btn btn-danger">Borrar</a>
+            </div>
+
+
+
+            <div class="clearfix"></div>
+        </article>
+
+
+
+
+    </section>
+    <app-sidebar></app-sidebar>
+</div>

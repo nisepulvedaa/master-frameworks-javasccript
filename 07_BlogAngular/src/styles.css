@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    /*Fuentes*/
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+.center {
+    width: 75%;
+    margin: 0px auto;
+}
+
+#content {
+    width: 70%;
+    float: left;
+    /* border: 1px solid red;*/
+    min-height: 650px;
+    margin-right: 20px;
+}
+
+.btn.up_btn.afu-attach-pin {
+    display: block !important;
+    width: 100% !important;
+    max-width: 90% !important;
+    margin-top: 15px !important;
+}

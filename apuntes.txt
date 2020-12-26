@@ -1,0 +1,224 @@
+crear base de datosn node
+
+use pruebas1
+
+limpiar cache npm cache clean --force
+
+npm set audit false
+
+crear proyecto con node
+npm init 
+
+more package.json ver archivo en la consola
+
+express js packqage de node que permite trabajar con procolo http
+npm install --save express
+
+convertir datos de formulario a json
+npm install --save body-parser
+
+mongos interfaz para trabajar con node.js
+npm install --save mongoose
+
+modulo de node para poder subir archivos conect.party
+npm install --save connect-multiparty
+
+modulo de node que permite hacer validaciones de node
+npm install --save validator
+
+modulo de node que permite no necesitar detenerse para
+reflejar los cambios de los archivos
+npm install --save-dev-nodemon
+
+actualizar node
+npm install -g npm@latest
+
+limpiar cache de node
+npm cache clean --force
+
+npm set audit false
+
+npm unistall -g angular-cli
+
+npm unistal -g @angular/cli
+
+
+
+angular
+
+
+se usa pra hacer aplicaciones web spa (aplicaciones que no recargar la pagina)
+
+elementos de una pagina angular
+
+-componentes:
+
+todo lo que se puede ver en pantalla es controlado y gestionado por este tipo de elementos
+
+el componente hace de mediador entra la vista atraves de la plantilla y la logica de la app donde se 
+incluira el modela de datos, es decir una especie de controlador
+
+-plantilla 
+
+vista de la aplicacion (html)
+
+trabajan con databinding y directivas 
+
+
+-decoradores
+sirven para configurar dinamicamente atributos , metadatos de la clases y componentes
+
+
+-metadatos
+describen las clases pero tambien sus relaciones se encarga de decir esta plantilla y este componente van
+juntos
+
+-servicios
+clases con un objetivo claro, facilita la reutilizacion, son un tipo de elemento dentro de la arquitectura de
+angular y mediante inyeccion de dependencias , los podemos usar entre componentes principales
+
+-providers
+
+son servicios que nos proveen de datos o funcionalidades mediante sus metodos, existen provides propios
+de angular pero tambien los podemos crear 
+
+-directivas
+
+funcionalidades aplicables al dom y a elementos html en las plantillas de un componenete , por ejemplo
+una directiva pude servir para controlar que un div se muestre o no o recorrer un array en la vista
+o tambien pueden servir para drle un estilo a un elemento de html o para interactuar con el modelo de datos
+del componenete
+
+basicamente son nuevos atributos para aplicarle a cualquier cosa en nuestra plantilla
+
+-- levantar proyecto ng serve --open
+ng new
+
+ng serve
+
+ng  g component componente/mi-segundo-compontente
+
+hooks
+
+metodo del ciclo de vida de un componente
+eventos  que se procuden en el componente
+
+1 instalacion
+2 componentes
+3 de html y css angular
+4 routing
+6 directivas
+ngIf
+nfFor
+
+6 input y ouput
+7 pipes
+8 formulario y validacion
+9 eventos
+10 servicios y http
+11 proyecto completo
+12 subida de imagenes
+13 buscador
+14 modulos externos
+
+
+react framework spa desarrollado por facebook
+
+framewort de javascript para hacer aplicaciones spa
+
+instalacion
+
+bescar google
+creat react app 
+
+comando para instalar : npm install -g create-react-app
+comando para crear:  create-react-app aprendiendoract
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+componentes y jsx
+
+jsx lenguaje que mezcla html y javascript
+componentes: logica que controla un espacio de la pantalla
+
+
+trabajar con maquetacion de react
+estado y props
+routing
+formularios
+evemtos
+servicios rest y htp
+proyecto completo 
+buscador
+subida de archivos
+validacion
+trabajo con api rest
+librerias externas
+
+
+render se encarga de mostrar el contenido del componente
+
+ciclo de vida
+
+cuando se monta
+cuando se muestran render
+cuando se desmonta
+
+react router dom
+liberia para hacer las rutas
+
+axios libreria que permite hacer peticiones http tanto para react .js y vue .js
+nom install --save axios
+
+npm install --save moment
+npm install --save react-moment
+
+libreria para formatear fechas react
+
+simple react validation validar formulario
+
+npm install --save simple-react-validator
+
+-------------------------------------------------------
+vue framework de javascript para aplicaciones spa
+
+instalacion y crear proyecto
+npm install -g @vue/cli
+vue --version
+
+vue new aprendiendovue
+
+npm run serve
+
+al igual que react hay un sistema de rutas que se instal a por separaro
+
+npm install --save vue-router
+componente
+trozo de pnatalla que hace algo en una parte de mi pantalla
+de html a css a vue
+routing
+vistas y directivas
+props(comunicacion entre componente)
+filtros (pipe)
+formularios y validacion
+eventos
+peticiones http
+proyecto completo con vue
+subida de imagenes
+buscador
+librerias externas
+
+eventos del ciclo de vida de una pagina en vue
+
+mounted 
+
+
+libreria para validar
+
+npm install --save vuelidate
+
+libreria para el formateo de fechas
+
+npm install --save vue-moment

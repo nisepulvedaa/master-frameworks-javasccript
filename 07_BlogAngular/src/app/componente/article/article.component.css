@@ -1,0 +1,154 @@
+.article-item {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.article-item .image-wrap {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+}
+
+.article-item .image-wrap img {
+    height: 100%;
+    text-align: center;
+}
+
+.article-item h2 {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.article-item .date {
+    display: block;
+    width: 100%;
+    color: rgb(88, 88, 88);
+}
+
+.article-item a {
+    display: block;
+    color: #444;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.article-item a:hover {
+    text-decoration: underline;
+}
+
+.subheader {
+    font-size: 24px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.article-detail .image-wrap {
+    float: none;
+    width: 100%;
+    height: 300px;
+}
+
+.article-detail .image-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.article-detail .subheader {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.raddiobuttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.btn {
+    display: block;
+    background: black;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    max-width: 120px;
+    transition: 300ms all;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-success {
+    background: rgb(23, 150, 19);
+}
+
+.btn-success:hover {
+    background: black;
+}
+
+.btn-warning {
+    background: rgb(238, 165, 6);
+    color: white !important;
+    text-decoration: none;
+}
+
+.btn-warning:hover {
+    opacity: 0.8;
+    transition: all 300 ms;
+}
+
+.btn-danger {
+    background: rgb(201, 21, 21);
+    color: white !important;
+    text-decoration: none;
+}
+
+.btn-danger:hover {
+    opacity: 0.8;
+    transition: all 300 ms;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.mid-form {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.mid-form label {
+    display: block;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    min-height: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 3px;
+    transition: 300ms all;
+}
+
+input[type="text"]:focus,
+:focus {
+    box-shadow: 0px 0px 5px #eee inset;
+}

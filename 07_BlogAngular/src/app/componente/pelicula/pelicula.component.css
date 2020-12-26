@@ -1,0 +1,87 @@
+.article-item {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.article-item .image-wrap {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+}
+
+.article-item .image-wrap img {
+    height: 100%;
+    text-align: center;
+}
+
+.article-item h2 {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.article-item .date {
+    display: block;
+    width: 100%;
+    color: rgb(88, 88, 88);
+}
+
+.article-item a {
+    display: block;
+    color: #444;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.article-item a:hover {
+    text-decoration: underline;
+}
+
+.subheader {
+    font-size: 24px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.article-detail .image-wrap {
+    float: none;
+    width: 100%;
+    height: 300px;
+}
+
+.article-detail .image-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.article-detail .subheader {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.year-green {
+    display: block;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: 121px;
+    text-align: center;
+}
+
+.year-red {
+    display: block;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 121px;
+    text-align: center;
+}
